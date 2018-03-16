@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+	<header>
+		<title>Restaraunt</title>
+		<h1>MikNik's</h1>
+	</header>
+	<head>	
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	  <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+	  <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+	</script>
+	<body>
+		<div id="title" align="center" style="color:black;">
+		</div>
+		<div id="navigation">
+		<hr style="border-top-color:blue"/>
+		</div>
+		<div align="center">	
+		<ul class="nav nav-tabs">
+		<li><a href="index.html" target="_blank"><span class="glyphicon glyphicon-home"></span>Home Page</a></li>
+		<li><a href="contactUs.html" target="_blank">Contact Us</a></li>
+		<li><a href="menu.html" target="_blank">Menu</a><br></li>
+		</ul>
+		<hr style="border-top-color:blue"/>
+		</div>
+		<div style="text-align:center;background-color: #D3D3D3">
+		<form>
+		<h2>Contact Us<h2>
+		<form action="submit.html" method="POST">
+		<label for="Name">Name:</label>
+		<input type="text"  id="Name"name="Name"Required="font-weight:bold"><br><br>
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email"><br><br>
+		<label for="phone">Phone:</label>
+		<input type="text" id="phone" name="phone"><br><br>
+		<!--Reason for inquiry -->
+		<label type="reason">Reason for Inquiry:</label>
+		<select id="reason" name="reason" >
+		<option value="default" selected>Catering</option>
+		<option value="privateparty">Private Party</option>
+		<option value="feedback">FeedBack</option>
+		<option value="other">Other</option></select><br><br>
+		<label for="info">Additional Information:</label>
+		<textarea id="info" style="height:50px"></textarea><br><br>
+		</select>
+		
+		<legend>I Have visited the restaraunt before:</legend>
+		<input type="radio" id="choice1" name="questionnaire" value="yes">
+		<label for="choice1">Yes</label>
+		<input type="radio" id="choice2" name="questionnaire" value="no">
+		<label for="choice2">No</label>
+		
+		<legend>Best days to Contact me:</legend>
+		<input type="checkbox" id="mon" name"week" value="mon">
+		<label for="mon">Mon</label>
+		<input type="checkbox" id="tue" name"week" value="tue">
+		<label for="mon">Tues</label>
+		<input type="checkbox" id="wed" name"week" value="wed">
+		<label for="mon">Wed</label>
+		<input type="checkbox" id="th" name"week" value="th">
+		<label for="mon">Th</label>
+		<input type="checkbox" id="fri" name"week" value="fri">
+		<label for="mon">Fri</label><br><br><br>
+		<input type="submit" name="submit" value="submit">		
+		</div>
+				
+		</form>
+		
+		
+	<hr style="border-top-color:blue"/>	
+	<footer>
+		<div style="text-align:center;italic">
+		<p>	5276 Wallace Dr, Rochester, MN, 55904<br>
+		816-555-9004
+		</div>
+		</footer>
+	</body>	
+</html>
